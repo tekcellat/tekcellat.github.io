@@ -1,4 +1,6 @@
 body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(0,212,255,1) 100%);
     margin: 0 0;
     padding: 0 0;
 }
@@ -17,6 +19,7 @@ img#icon {
     display: block;
     margin: 0 auto;
 }
+    
 
 div#main-header {
     display: flex;
@@ -29,10 +32,14 @@ div#avcont {
 }
 div.bgnam {
     display: block;
-    flex: 1;
-    font-size: 2em;
+    flex: autox1;
+    background: rgb(177,207,200);
+    background: linear-gradient(90deg, rgba(177,207,200,1) 0%, rgba(191,218,198,1) 100%);
+    font-size: 1.5em;
     text-align: center;
     padding: 0 auto 0 0;
+    border-bottom-style: dotted;
+
 }
 
 div.bigname {
@@ -95,7 +102,8 @@ div#resources {
 
 
 footer {
-    background: #ffffff;
+    background: rgb(177,207,200);
+    background: linear-gradient(90deg, rgba(177,207,200,1) 0%, rgba(191,218,198,1) 100%);
     color: #9b0000;
     display: flex;
 }
