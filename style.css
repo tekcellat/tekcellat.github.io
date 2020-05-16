@@ -1,0 +1,112 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    size: inherit;
+}
+
+img#icon {
+    border-radius: px;
+    width: 80%;
+    min-width: 200px;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+div#main-header {
+    display: flex;
+}
+
+div#avcont {
+    display: block;
+    flex: 1;
+    margin: 300px 1% 200px 20%;
+}
+div.bgnam {
+    display: block;
+    flex: 1;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 auto 0 0;
+}
+
+div.bigname {
+    display: block;
+    flex: 1;
+    margin: 300px auto 200px auto;
+    text-align: left;
+    padding: 0 auto 0 0;
+}
+
+.bigname h2 {
+    margin: 5% 0 10% 0;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+article#main-block {
+    display: flex;
+    background: #487067; 
+    color: white;
+    padding: 5% 10%;
+}
+
+div#about-me,
+div#resources {
+    flex: 1;
+}
+
+div#resources h3,
+div#about-me h3 {
+    display: block;
+    margin: 0 20%;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+div#resources div,
+div#about-me p {
+    padding: 25px 25px;
+    margin: 30px 8%;
+    color: white;
+    font-size: 1.4em;
+    border-radius: 1px;
+    background: #003126c2;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+div#about-me p {
+    font-style: normal;
+}
+
+
+div#resources {
+    text-align: center;
+    font-style: none;
+}
+
+
+footer {
+    background: #ffffff;
+    color: #9b0000;
+    display: flex;
+}
+
+footer div#smallname {
+    flex: 1;
+    padding: auto auto;
+    margin: auto auto;
+}
+
+footer nav {
+    flex: 3;
+    padding-top: 15px;
+}
