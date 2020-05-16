@@ -72,6 +72,10 @@ article#main-block {
     padding: 5% 10%;
 }
 
+div.b {
+    text-align: left;
+}
+
 div#about-me,
 div#resources {
     flex: 1;
@@ -223,3 +227,6 @@ footer nav {
     background: #fff;
     /* Цвет фона */
 }
+
+
+/**/
