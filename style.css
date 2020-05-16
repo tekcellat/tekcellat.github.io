@@ -1,6 +1,6 @@
 body {
-    background: rgb(0,36,10);
-    background: linear-gradient(90deg, rgba(0,36,10,1) 0%, rgba(9,115,121,1) 53%, rgba(0,212,255,1) 100%);
+    background: rgb(0, 36, 10);
+    background: linear-gradient(90deg, rgba(0, 36, 10, 1) 0%, rgba(9, 115, 121, 1) 53%, rgba(0, 212, 255, 1) 100%);
     margin: 0 0;
     padding: 0 0;
 }
@@ -19,7 +19,6 @@ img#icon {
     display: block;
     margin: 0 auto;
 }
-    
 
 div#main-header {
     display: flex;
@@ -30,17 +29,17 @@ div#avcont {
     flex: 1;
     margin: 300px 1% 200px 20%;
 }
+
 div.bgnam {
     display: block;
     border-top: dotted;
     flex: autox1;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(9,115,121,1) 50%, rgba(255,255,255,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(9, 115, 121, 1) 50%, rgba(255, 255, 255, 1) 100%);
     font-size: 1.5em;
     text-align: center;
     padding: 0 auto 0 0;
     border-bottom-style: dotted;
-
 }
 
 div.bigname {
@@ -59,7 +58,7 @@ div.bigname {
 
 article#main-block {
     display: flex;
-    background: #487067; 
+    background: #487067;
     color: white;
     padding: 5% 10%;
 }
@@ -95,16 +94,14 @@ div#about-me p {
     font-style: normal;
 }
 
-
 div#resources {
     text-align: center;
     font-style: none;
 }
 
-
 footer {
-    background: rgb(177,207,200);
-    background: linear-gradient(90deg, rgba(177,207,200,1) 0%, rgba(191,218,198,1) 100%);
+    background: rgb(177, 207, 200);
+    background: linear-gradient(90deg, rgba(177, 207, 200, 1) 0%, rgba(191, 218, 198, 1) 100%);
     color: #9b0000;
     display: flex;
 }
@@ -118,4 +115,63 @@ footer div#smallname {
 footer nav {
     flex: 3;
     padding-top: 15px;
+}
+
+
+/*  */
+
+
+/* Remove default bullets */
+
+ul,
+#myUL {
+    list-style-type: none;
+}
+
+
+/* Remove margins and padding from the parent ul */
+
+#myUL {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the caret/arrow */
+
+.caret {
+    cursor: pointer;
+    user-select: none;
+    /* Prevent text selection */
+}
+
+
+/* Create the caret/arrow with a unicode, and style it */
+
+.caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+
+.caret-down::before {
+    transform: rotate(90deg);
+}
+
+
+/* Hide the nested list */
+
+.nested {
+    display: none;
+}
+
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+
+.active {
+    display: block;
 }
