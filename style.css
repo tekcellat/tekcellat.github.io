@@ -38,6 +38,7 @@ div.bgnam {
     text-align: center;
     padding: 0 auto 0 0;
     border-bottom-style: dotted;
+    padding: 2% 5%;
 }
 
 div.sub {
@@ -64,7 +65,6 @@ div.bigname {
 }
 
 article#main-block {
-    display: flex;
     background: #487067;
     color: white;
     padding: 5% 10%;
@@ -133,6 +133,13 @@ footer {
     background: linear-gradient(90deg, rgba(177, 207, 200, 1) 0%, rgba(191, 218, 198, 1) 100%);
     color: #9b0000;
     display: flex;
+}
+
+div.box {
+    align-content: center;
+    box-align: center;
+    border: 2px solid rgb(27, 26, 26);
+    margin: 50px;
 }
 
 footer div#smallname {
