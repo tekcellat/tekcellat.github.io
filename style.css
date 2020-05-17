@@ -79,6 +79,24 @@ div#resources {
     flex: 1;
 }
 
+ty {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 25px;
+    font-style: bold;
+    font-variant: bold;
+    color: rgb(59, 17, 0)
+}
+
+pre {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: #9b0000;
+    line-height: 18.5714px;
+}
+
 div#resources h3,
 div#about-me h3 {
     display: block;
@@ -230,3 +248,6 @@ footer nav {
 
 
 /**/
+
+
+/*vert line */
