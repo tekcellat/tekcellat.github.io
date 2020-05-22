@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>University | Zehrimar Corporation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="preload.css">
+    <script>
+        window.onload = function() {
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function() {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
+        }
+    </script>
     <style>
         .animate__animated.animate__rotateIn {
-            --animate-duration: 5s;
+            --animate-duration: 2s;
+            animation-delay: 2s
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -18,6 +29,12 @@
 
 
 <body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
     <header>
         <div class="bgnam">
             <center>
