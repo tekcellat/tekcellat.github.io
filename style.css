@@ -31,13 +31,13 @@ div#avcont {
 
 div.bgnam {
     display: block;
-    border-top: dotted;
+    border-top: groove;
     flex: autox1;
     background: rgba(190, 178, 178, 0.63);
     font-size: 1.5em;
     text-align: center;
     padding: 0 auto 0 0;
-    border-bottom-style: dotted;
+    border-bottom-style: groove;
     padding: 2% 5%;
 }
 
@@ -142,11 +142,13 @@ div.box {
 }
 
 footer div#smallname {
-    border-top-style: dotted;
+    border-top-style: groove;
     flex: 1;
+    font-size: ;
+    color: #020101;
     padding: auto auto;
     margin: auto auto;
-    border-bottom-style: dotted;
+    border-bottom-style: groove;
 }
 
 footer nav {
@@ -205,6 +207,12 @@ footer nav {
 
 h6 {
     color: red;
+    border-left: #990a0a;
+    border-right: #990a0a;
+    border-top: #990a0a;
+    border-bottom: #990a0a;
+    border: 0.2em;
+    border-style: double;
 }
 
 .menu ul {
@@ -254,4 +262,41 @@ h6 {
 .menu>li:hover>a {
     background: #fff;
     /* Цвет фона */
+}
+
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.course {
+    background-color: rgb(9, 78, 11);
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    font-style: oblique;
+    /* Add a green color to the "active/current" link */
+    color: white;
 }
