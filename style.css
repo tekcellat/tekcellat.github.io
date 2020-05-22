@@ -144,7 +144,7 @@ div.box {
 footer div#smallname {
     border-top-style: groove;
     flex: 1;
-    font-size: ;
+    font-size: 0.75em;
     color: #020101;
     padding: auto auto;
     margin: auto auto;
@@ -206,11 +206,7 @@ footer nav {
 }
 
 h6 {
-    color: red;
-    border-left: #990a0a;
-    border-right: #990a0a;
-    border-top: #990a0a;
-    border-bottom: #990a0a;
+    color: rgba(105, 78, 78, 0.671);
     border: 0.2em;
     border-style: double;
 }
